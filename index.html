@@ -1,0 +1,345 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navalha & Cia | Barbearia Premium</title>
+    <meta name="description" content="A melhor barbearia da cidade. Cortes modernos, barba terapia e produtos exclusivos para o homem exigente.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header" id="header">
+        <div class="container navbar">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-scissors"></i> Navalha <span>& Cia</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#produtos" class="nav-link">Produtos</a>
+                <a href="#depoimentos" class="nav-link">Depoimentos</a>
+                <a href="#contato" class="btn btn-outline nav-btn">Agendar</a>
+            </nav>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content fade-in">
+            <h1>Tradição, Estilo e <span>Respeito</span></h1>
+            <p>Mais do que um corte de cabelo, uma experiência completa para o homem moderno que não abre mão da excelência.</p>
+            <div class="hero-actions">
+                <a href="#contato" class="btn btn-primary">Agendar Horário</a>
+                <a href="#produtos" class="btn btn-secondary">Ver Produtos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section class="sobre section-padding" id="sobre">
+        <div class="container grid-2">
+            <div class="sobre-img fade-in-left">
+                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Interior da Barbearia">
+            </div>
+            <div class="sobre-text fade-in-right">
+                <span class="section-subtitle">Nossa História</span>
+                <h2 class="section-title">Elevando o padrão da barbearia clássica</h2>
+                <p>Fundada por mestres barbeiros, a Navalha & Cia une técnicas tradicionais às tendências mais atuais. Nosso ambiente foi pensado para ser seu refúgio: tome uma cerveja gelada, relaxe e deixe nossa equipe cuidar do seu visual com precisão cirúrgica.</p>
+                <ul class="diferenciais">
+                    <li><i class="fa-solid fa-check"></i> Toalha Quente e Navalha</li>
+                    <li><i class="fa-solid fa-check"></i> Profissionais Premiados</li>
+                    <li><i class="fa-solid fa-check"></i> Ambiente Climatizado com Bar</li>
+                    <li><i class="fa-solid fa-check"></i> Produtos de Alta Performance</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section class="servicos section-padding bg-darker" id="servicos">
+        <div class="container">
+            <div class="section-header center fade-in">
+                <span class="section-subtitle">O que fazemos</span>
+                <h2 class="section-title">Nossos Serviços</h2>
+            </div>
+            
+            <div class="grid-3">
+                <div class="service-card fade-in">
+                    <i class="fa-solid fa-user-tie service-icon"></i>
+                    <h3>Corte Clássico</h3>
+                    <p>Corte na tesoura ou máquina, com acabamento perfeito na navalha, lavagem e finalização com pomada.</p>
+                    <span class="price">R$ 45,00</span>
+                </div>
+                
+                <div class="service-card featured-card fade-in delay-1">
+                    <div class="badge">Mais Pedido</div>
+                    <i class="fa-solid fa-gem service-icon"></i>
+                    <h3>Combo Especial</h3>
+                    <p>Corte de cabelo e barba terapia completa com toalha quente, massagem facial e óleos essenciais.</p>
+                    <span class="price">R$ 80,00</span>
+                </div>
+                
+                <div class="service-card fade-in delay-2">
+                    <i class="fa-solid fa-spray-can service-icon"></i>
+                    <h3 class="card-title">Barba Terapia</h3>
+                    <p>Alinhamento dos fios, relaxamento com toalha quente, espuma aquecida e finalização com balm.</p>
+                    <span class="price">R$ 40,00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vitrine de Produtos (Atendendo à regra de vendas) -->
+    <section class="produtos section-padding" id="produtos">
+        <div class="container">
+            <div class="section-header center fade-in">
+                <span class="section-subtitle">Exclusividade em casa</span>
+                <h2 class="section-title">Linha de Produtos</h2>
+                <p>Mantenha o visual impecável no seu dia a dia com nossa linha premium.</p>
+            </div>
+            
+            <div class="product-grid">
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1626285861696-9f0bf5a49c6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Óleo para Barba">
+                        <span class="product-tag">Destaque</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Óleo Hidratante Lenhador</h3>
+                        <p>Hidratação profunda com essência amadeirada.</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 65,00</span>
+                            <a href="#" class="btn-buy" onclick="event.preventDefault();"><i class="fa-brands fa-whatsapp"></i> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in delay-1">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1599305090598-fe179d501227?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pomada Modeladora">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pomada Efeito Matte</h3>
+                        <p>Fixação forte e aspecto natural sem brilho.</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 55,00</span>
+                            <a href="#" class="btn-buy" onclick="event.preventDefault();"><i class="fa-brands fa-whatsapp"></i> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fade-in delay-2">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Shampoo de Barba">
+                    </div>
+                    <div class="product-info">
+                        <h3>Shampoo 2 em 1 Ice</h3>
+                        <p>Limpeza refrescante para cabelo e barba.</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 45,00</span>
+                            <a href="#" class="btn-buy" onclick="event.preventDefault();"><i class="fa-brands fa-whatsapp"></i> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card fade-in delay-3">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1621607512214-68297480165e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pente de Madeira">
+                    </div>
+                    <div class="product-info">
+                        <h3>Pente de Madeira Curvo</h3>
+                        <p>Anti-frizz, perfeito para carregar no bolso.</p>
+                        <div class="product-footer">
+                            <span class="product-price">R$ 35,00</span>
+                            <a href="#" class="btn-buy" onclick="event.preventDefault();"><i class="fa-brands fa-whatsapp"></i> Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos section-padding bg-darker" id="depoimentos">
+        <div class="container">
+            <div class="section-header center fade-in">
+                <span class="section-subtitle">Prova Social</span>
+                <h2 class="section-title">O que dizem os clientes</h2>
+            </div>
+            
+            <div class="grid-3">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Melhor atendimento da cidade. O ambiente é sensacional, cerveja gelada e o corte sempre sai impecável."</p>
+                    <div class="author">
+                        <strong>Carlos Eduardo</strong>
+                        <span>Cliente há 2 anos</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in delay-1">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Fiz a barba terapia e recomendo demais. É muito relaxante. Sem falar nos produtos que comprei, qualidade absurda."</p>
+                    <div class="author">
+                        <strong>Ricardo Alves</strong>
+                        <span>Guia Local Google</span>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in delay-2">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Levo meu filho junto e o tratamento com as crianças é nota 10. Profissionais extremamente educados e capacitados."</p>
+                    <div class="author">
+                        <strong>Marcelo Souza</strong>
+                        <span>Cliente mensal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato e Mapa -->
+    <section class="contato section-padding" id="contato">
+        <div class="container grid-2">
+            <div class="contato-info fade-in-left">
+                <span class="section-subtitle">Fale Conosco</span>
+                <h2 class="section-title">Agende seu horário</h2>
+                <p>Preencha o formulário ao lado ou entre em contato diretamente pelo WhatsApp para garantir seu atendimento sem filas.</p>
+                
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Av. Paulista, 1000 - Bela Vista, São Paulo - SP</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <div>
+                            <h4>Horário de Funcionamento</h4>
+                            <p>Segunda a Sábado: 09h às 20h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contato-form fade-in-right">
+                <form id="agendamentoForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                        <span class="error-msg">Por favor, insira seu nome.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">WhatsApp</label>
+                        <input type="tel" id="telefone" placeholder="(11) 90000-0000" required>
+                        <span class="error-msg">Por favor, insira um telefone válido.</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="servico">Serviço de Interesse</label>
+                        <select id="servico" required>
+                            <option value="" disabled selected>Escolha um serviço...</option>
+                            <option value="corte">Corte Clássico</option>
+                            <option value="barba">Barba Terapia</option>
+                            <option value="combo">Combo Especial</option>
+                            <option value="produto">Comprar Produtos</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem (Opcional)</label>
+                        <textarea id="mensagem" rows="4" placeholder="Alguma observação?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Solicitar Agendamento</button>
+                    <div id="form-success" class="success-msg" style="display: none;">
+                        <i class="fa-solid fa-circle-check"></i> Solicitação enviada! Entraremos em contato via WhatsApp.
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="map-container fade-in">
+            <!-- Iframe do Google Maps Fictício -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.197361131754!2d-46.65646018447573!3d-23.56134956747514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1680000000000!5m2!1spt-BR!2sbr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <i class="fa-solid fa-scissors"></i> Navalha <span>& Cia</span>
+                </a>
+                <p>Estilo, tradição e excelência no cuidado masculino. Sua melhor versão começa aqui.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Nossa História</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Navalha & Cia Barbearia. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp Flutuante -->
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank" aria-label="Fale conosco no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
